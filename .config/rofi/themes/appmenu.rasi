@@ -1,0 +1,56 @@
+* {
+  background-color: #282A36;
+  bg-alt: #4C566A;
+  fg: #F8F8F2;
+
+  blue-light: #7ACBEA;
+  yellow: #FA946E;
+
+  border: 0;
+  lines: 8;
+  padding: 0;
+  margin: 0;
+  spacing: 0;
+}
+
+window {
+  width: 30%;
+  transparency: "real";
+}
+
+mainbox {
+  children: [inputbar, listview];
+}
+
+listview {
+  columns: 1;
+}
+
+inputbar {
+  children: [prompt, entry];
+  background-color: @background;
+  margin: 12;
+}
+
+prompt {
+  enabled: true;
+  background-color: @bg-alt;
+  text-color: @fg;
+  padding: 8;
+}
+
+entry {
+  padding: 8;
+  text-color: @yellow;
+}
+
+element {
+  padding: 12;
+  orientation: vertical;
+  text-color: @fg;
+}
+
+element selected {
+  background-color: @bg-alt;
+  text-color: @blue-light;
+}

@@ -1,0 +1,43 @@
+#!/usr/bin/env bash
+
+EXNOTIFY_SEND="${HOME}/.scripts/notify-send/notify-send.sh"
+
+noterr() { "$EXNOTIFY_SEND" -u low -r 15 "Install alsa-utils!"; exit 1; }
+type -p "amixer" &> /dev/null || noterr
+
+CHK_MUTE() { amixer -q -D pulse get Master | grep 'off'; }
+
+notify() {
+    VOLUME="$(amixer -q -D pulse | grep -oP '\[\K[^%\]]+' | sed 1q)"
+    
+    if [[ "$VOLUME" -eq 0 ]]; then
+        icon_name="notification-audio-volume-muted"
+    elif [[ "$VOLUME" -lt 30 ]]; then
+        icon_name="notification-audio-volume-low"
+    elif [[ "$VOLUME" -lt 70 ]]; then
+        icon_name="notification-audio-volume-medium"
+    else
+        icon_name="notification-audio-volume-high"
+    fi
+    
+    exec "$EXNOTIFY_SEND" -u low -r 123 -t 700 -i "$icon_name" "$VOLUME " -h int:value:"$VOLUME"
+}
+
+case $1 in
+    up)     amixer -q -D pulse set Master on -q
+            amixer -q -D pulse sset Master "${AUDIO_STEPS:-5}"%+ -q
+            notify
+    ;;
+    down)   amixer -q -D pulse set Master on -q
+            amixer -q -D pulse sset Master "${AUDIO_STEPS:-5}"%- -q
+            notify
+    ;;
+    mute)   amixer -q -D pulse set Master 1+ toggle -q
+            if CHK_MUTE &> /dev/null; then
+                icon_name="notification-audio-volume-muted"
+                exec "$EXNOTIFY_SEND" -u low -r 123 -t 700 -i "$icon_name" "Muted "
+            else
+                notify
+            fi
+    ;;
+esac; exit $?

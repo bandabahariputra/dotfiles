@@ -1,0 +1,14 @@
+configuration {
+  font:                 "Source Sans Pro Medium 10";
+  show-icons:           true;
+  cycle:                false;
+  hide-scrollbar:       true;
+  disable-history:      true;
+  sidebar-mode:         false;
+  modi:                 "drun,run,window";
+  drun-display-format:	"{icon} {name}";
+  display-drun:         "";
+  display-run:          "";
+  display-window:       "";
+  columns:              3;
+}

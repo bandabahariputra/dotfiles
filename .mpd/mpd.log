@@ -1,0 +1,83 @@
+Aug 22 14:36 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 22 14:36 : avahi: Failed to add service _mpd._tcp: Local name collision
+Aug 22 14:46 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 22 14:46 : avahi: Service 'Music Player @ tyrexxxcUbuntu' successfully established.
+Aug 22 14:48 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 22 14:48 : avahi: Service 'Music Player @ tyrexxxcUbuntu' successfully established.
+Aug 22 14:49 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 22 14:49 : avahi: Service 'Music Player @ tyrexxxcUbuntu' successfully established.
+Aug 22 14:51 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 22 14:51 : avahi: Service 'Music Player @ tyrexxxcUbuntu' successfully established.
+Aug 22 14:52 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 22 14:52 : avahi: Service 'Music Player @ tyrexxxcUbuntu' successfully established.
+Aug 22 14:53 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 22 14:53 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 22 15:19 : player: played "http://185.33.21.112:80/x_128"
+Aug 22 15:24 : player: played "http://185.33.21.112:80/x_128"
+Aug 22 15:24 : exception: Not playing
+Aug 22 15:27 : player: played "http://185.33.21.111:80/x_128"
+Aug 22 15:27 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 22 15:27 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 22 15:27 : avahi: Service 'Music Player @ tyrexxxcUbuntu' successfully established.
+Aug 22 15:27 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 22 18:28 : exception: Failed to decode http://185.33.21.111:80/x_128
+Aug 22 18:28 : exception: nested: CURL failed: Connection timed out after 10010 milliseconds
+Aug 22 18:28 : player: played "http://185.33.21.111:80/x_128"
+Aug 22 18:28 : exception: Failed to decode http://185.33.21.111:80/x_128
+Aug 22 18:28 : exception: nested: CURL failed: Connection timed out after 10010 milliseconds
+Aug 22 18:28 : exception: Failed to decode http://185.33.21.111:80/x_128
+Aug 22 18:28 : exception: nested: CURL failed: Failed to connect to 185.33.21.111 port 80: Network is unreachable
+Aug 22 18:28 : player: played "http://185.33.21.111:80/x_128"
+Aug 22 18:28 : exception: Failed to decode http://185.33.21.112:80/x_128
+Aug 22 18:28 : exception: nested: CURL failed: Failed to connect to 185.33.21.112 port 80: Network is unreachable
+Aug 22 18:28 : player: played "http://185.33.21.112:80/x_128"
+Aug 22 18:28 : player: played "http://stream.tsubakianimeradio.com:9000/play.mp3"
+Aug 22 18:28 : exception: Not playing
+Aug 22 18:28 : exception: Failed to decode http://185.33.21.111:80/x_128
+Aug 22 18:28 : exception: nested: CURL failed: Connection timed out after 10006 milliseconds
+Aug 22 18:28 : player: played "http://185.33.21.111:80/x_128"
+Aug 22 18:28 : player: played "http://185.33.21.112:80/x_128"
+Aug 22 18:28 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 22 18:28 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 22 18:28 : avahi: Service 'Music Player @ tyrexxxcUbuntu' successfully established.
+Aug 22 18:29 : exception: Failed to decode http://stream.tsubakianimeradio.com:9000/play.mp3
+Aug 22 18:29 : exception: nested: CURL failed: Resolving timed out after 10000 milliseconds
+Aug 22 18:29 : player: played "http://stream.tsubakianimeradio.com:9000/play.mp3"
+Aug 22 18:29 : exception: Failed to decode http://stream.tsubakianimeradio.com:9000/play.mp3
+Aug 22 18:29 : exception: nested: CURL failed: Resolving timed out after 10000 milliseconds
+Aug 22 18:29 : exception: Failed to decode http://185.33.21.111:80/x_128
+Aug 22 18:29 : exception: nested: CURL failed: Connection timed out after 10009 milliseconds
+Aug 22 18:29 : player: played "http://185.33.21.111:80/x_128"
+Aug 22 18:29 : exception: Failed to decode http://185.33.21.111:80/x_128
+Aug 22 18:29 : exception: nested: CURL failed: Connection timed out after 10009 milliseconds
+Aug 22 18:29 : player: played "http://185.33.21.112:80/x_128"
+Aug 22 18:29 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 22 18:29 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 22 18:29 : avahi: Service 'Music Player @ tyrexxxcUbuntu' successfully established.
+Aug 22 18:29 : exception: Failed to decode http://185.33.21.112:80/x_128
+Aug 22 18:29 : exception: nested: CURL failed: Connection timed out after 10007 milliseconds
+Aug 22 18:29 : player: played "http://185.33.21.112:80/x_128"
+Aug 22 18:30 : exception: Failed to decode http://185.33.21.111:80/x_128
+Aug 22 18:30 : exception: nested: CURL failed: Connection timed out after 10010 milliseconds
+Aug 22 18:30 : player: played "http://185.33.21.111:80/x_128"
+Aug 22 18:30 : exception: Failed to decode http://185.33.21.111:80/x_128
+Aug 22 18:30 : exception: nested: CURL failed: Connection timed out after 10010 milliseconds
+Aug 22 18:30 : exception: Failed to decode http://185.33.21.111:80/x_128
+Aug 22 18:30 : exception: nested: CURL failed: Connection timed out after 10008 milliseconds
+Aug 22 18:30 : player: played "http://185.33.21.111:80/x_128"
+Aug 22 18:30 : exception: Failed to decode http://185.33.21.111:80/x_128
+Aug 22 18:30 : exception: nested: CURL failed: Connection timed out after 10008 milliseconds
+Aug 22 18:30 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 22 18:30 : player: played "http://185.33.21.112:80/x_128"
+Aug 22 18:31 : player: played "https://kathy.torontocast.com:3060/"
+Aug 22 18:31 : exception: Failed to decode http://stream.antenne.de:80/heavy-metal
+Aug 22 18:31 : exception: nested: CURL failed: Could not resolve host: stream.antenne.de
+Aug 22 18:31 : player: played "http://stream.antenne.de:80/heavy-metal"
+Aug 22 18:32 : exception: Failed to set mixer for 'Pulse Audio': disconnected
+Aug 22 18:32 : player: played "http://stream.antenne.de:80/heavy-metal"
+Aug 22 18:32 : exception: Failed to decode https://igor.torontocast.com:1025/
+Aug 22 18:32 : exception: nested: CURL failed: server certificate verification failed. CAfile: none CRLfile: none
+Aug 22 18:32 : player: played "https://igor.torontocast.com:1025/"
+Aug 22 18:34 : player: played "http://108.163.223.242:8305/stream"
+Aug 22 18:35 : player: played "http://79.120.77.11:8000/thrashmetal"
+Aug 22 18:36 : player: played "http://185.33.21.111:80/x_128"

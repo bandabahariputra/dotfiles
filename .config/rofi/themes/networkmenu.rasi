@@ -1,0 +1,60 @@
+configuration {
+  show-icons: false;
+  columns: 1;
+}
+
+* {
+	background-color: #282A36;
+	bg-alt: #4C566A;
+  fg: #F8F8F2;
+
+  blue-light: #7ACBEA;
+  yellow: #FA946E;
+
+  lines: 15;
+  
+	text-color: @fg;
+}
+
+window {
+  width: 30%;
+  transparency: "real";
+}
+
+#window {
+  padding: 12;
+  anchor: east;
+  location: east;
+  x-offset: -6%;
+  y-offset: -14.5%;
+}
+
+inputbar,
+prompt,
+entry {
+  background-color: @background;
+}
+
+#inputbar {
+  children: [ prompt, entry ];
+  margin: 0 0 10 0;
+}
+
+#prompt {
+  background-color: @bg-alt;
+  padding: 4;
+}
+
+#entry {
+  text-color: @yellow;
+  padding: 4;
+}
+
+#element {
+  padding: 4;
+}
+
+#element.selected {
+  background-color: @bg-alt;
+  text-color: @blue-light;
+}
